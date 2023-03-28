@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="Reset.css">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2? família= Montserrat:ital,wght@0,100;0,700;1,100 & display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="cadastro">
+
+            <div id="titulo">
+                <h1>Cadastro</h1>
+            </div>
+
+            <div id="secao_nome" class="secao_dados">
+                <h3>Nome</h3>
+                <input id="nome" class="dados" type="text" placeholder="Seu nome...">
+                <p id="aviso"></p>
+            </div>
+
+            <div id="secao_cpf" class="secao_dados">
+                <h3>CPF</h3>
+                <input id="cpf" class="dados" type="number" placeholder="000.000.000.00">
+                <p id="aviso1"></p>
+            </div>
+
+            <div id="secao_rua" class="secao_dados">
+                <h3>Rua</h3>
+                <input id="rua" class="dados" type="text" placeholder="Nome da rua...">
+                <h3>N°</h3>
+                <input id="numero" class="dados" type="number">
+                <p id="aviso2"></p>
+            </div>
+
+            <div id="secao_bairro" class="secao_dados">
+                <h3>Bairro</h3>
+                <input id="bairro" class="dados" type="text" placeholder="Nome do bairro...">
+                <p id="aviso3"></p>
+            </div>
+
+            <div id="secao_nasc" class="secao_dados">
+                <h3>Nascimento</h3>
+                <input id="data" class="dados" type="date">
+                <p id="idade"></p>
+                <h3>Renda</h3>
+                <input id="salario" class="dados" type="number" placeholder="RS: 00.00">
+            </div>
+
+            <div class="secao_dados">
+                <h3>Profissão</h3>
+                <input class="dados" type="text" placeholder="Engenheiro, pedreiro, prof...">
+            </div>
+
+            <div id="enviar">
+                <input type="submit" id="botao_enviar" onclick="receber_dados()">
+            </div>
+            <p id="aviso_vazio"></p>
+        </div>
+    </main>
+
+
+    <script src="java.js"></script>
+</body>
+</html>
