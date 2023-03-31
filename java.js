@@ -78,7 +78,7 @@ function receber_dados ()
         estilo1.style.flexWrap = "wrap";
         estilo1.style.justifyContent = "center";
         estilo1.style.alignContent = "center";
-        document.getElementById("cpf").style.width = "88%";
+        document.getElementById("cpf").style.width = "85%";
         document.getElementById("aviso1").innerText = "CPF Invalido! Digite Novamente";
         condicao[3] = false;
         setTimeout(function(){

@@ -121,3 +121,36 @@ h3{
 #aviso_vazio{
     color: red;
 }
+
+/*  CELULAR  */
+
+@media screen and (max-width: 480px) {
+    
+    main{
+        background-image: url(fundo2.jpg);
+        background-size: cover;
+        background-repeat: repeat;
+        background-size: contain;
+        background-position: 0% 150%;
+    }
+
+    #cadastro{
+        width: 90%;
+        height: 63vh;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+
+    .dados{
+        font-size: 15px;
+        height: 4vh;
+    }
+
+    
+    #aviso, #aviso1, #aviso2, #aviso3, #aviso_vazio{
+        color: red;
+        font-size: 13px;
+    }
+}

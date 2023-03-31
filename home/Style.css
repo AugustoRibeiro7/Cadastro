@@ -67,3 +67,39 @@ main{
     font-size:large;
     
 }
+
+/*       CELULAR          */
+
+@media screen and (max-width: 480px) {
+    
+    #perfil{
+        width: 90%;
+        height: 68vh;
+        padding-top: 6%;
+    }
+
+    #secao_foto{
+        height: 30vh;
+        width: 30vh;
+    }
+
+    #foto{
+        height: 30vh;
+    }
+
+    #nome{
+        font-size: 22px;
+    }
+
+    .dados{
+        font-size: 17px;
+    }
+
+    main{
+        background-position: 50%;
+    }
+
+    .sub{
+        font-size:medium;
+    }
+}
